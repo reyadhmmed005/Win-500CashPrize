@@ -1,0 +1,107 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Prevents padding from affecting width */
+}
+
+body {
+    font-family: sans-serif; /* Choose a font you like */
+    line-height: 1.6; /* Improves readability */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 960px; /* Sets a maximum width for the content */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+}
+
+/* Header/Hero Section */
+header {
+    background-color: #007bff; /* Blue header background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto;
+    display: block; /* Prevents image from affecting text flow */
+    margin: 20px auto; /* Centers the image */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+section { /* Styles for each section of the main content */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design (Optional - Adjust breakpoints as needed) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    img {
+        margin: 10px auto;
+    }
+}
